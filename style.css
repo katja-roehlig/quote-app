@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: auto, auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: linear-gradient(rgb(112, 128, 216), indigo);
+  max-height: 100%;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  text-shadow: 4px 4px 4px palevioletred, 0px 0px 17px indigo;
+  -webkit-text-stroke: 1.5px indigo;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.3em;
+}
+header {
+  background: radial-gradient(
+    rgba(112, 128, 216, 0.589) 10%,
+    rgba(112, 128, 216, 0.637)
+  );
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  padding-block: 2em;
+  border-bottom: 2px solid white;
+}
+main {
+  min-width: 375px;
+  padding: 1em 2em 2em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-height: 667px;
+}
+
+blockquote {
+  line-height: 1.5em;
+  margin-bottom: 0em;
+}
+
+p {
+  font-style: italic;
+  font-size: 12px;
+  align-self: end;
+  padding: 0 2em 2em 0;
+  position: relative;
+  top: -1em;
+  margin-bottom: 0em;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  border-radius: 0.2em;
+  border: 2px solid white;
+}
+
+button {
+  margin-top: -2em;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  background-color: palevioletred;
+  box-shadow: 0px 0px 10px indigo;
+  border: 0;
+  align-self: center;
+  color: black;
+}
+
+#first-article {
+  margin-top: 1em;
+  background: radial-gradient(rgba(14, 246, 246) 40%, rgb(11, 175, 175));
+}
+
+#second-article {
+  margin-top: 1.5em;
+  background: radial-gradient(rgb(250, 252, 126) 40%, rgb(255, 199, 47));
+}
+
+#third-article {
+  margin-top: 1.5em;
+  background: radial-gradient(rgb(187, 254, 141) 40%, rgb(108, 247, 57));
+  margin-bottom: 1.5em;
+}
